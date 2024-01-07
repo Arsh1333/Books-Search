@@ -77,3 +77,20 @@ nav ul li a:hover {
   color: rgb(99, 99, 252);
   border: 2px solid rgb(99, 99, 252);
 }
+.contact-h {
+  color: red;
+}
+@media (max-width: 768px) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-sign {
+    display: none;
+  }
+}
