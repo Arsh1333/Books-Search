@@ -33,6 +33,13 @@ nav ul li a:hover {
   margin: 30px;
   font-family: "Pacifico", cursive;
   cursor: pointer;
+  text-decoration: none;
+}
+Link .logo {
+  margin: 30px;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+  text-decoration: none;
 }
 .btn-sign {
   margin: 20px;
@@ -52,6 +59,7 @@ nav ul li a:hover {
 }
 .hero-content {
   margin: 30px;
+  width: 55%;
 }
 .hero-h {
   margin: 10px;
@@ -89,6 +97,10 @@ nav ul li a:hover {
   .hero {
     display: flex;
     flex-direction: column;
+  }
+  .hero-content {
+    margin: 30px;
+    width: 85%;
   }
   .btn-sign {
     display: none;

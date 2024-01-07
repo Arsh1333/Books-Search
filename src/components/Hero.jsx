@@ -1,4 +1,5 @@
 import heroImg from "../assets/hero.jpg";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -11,7 +12,10 @@ export default function Hero() {
           unfold on every page. Immerse yourself in the magic of literature,
           where each book is a gateway to new realms of imagination.
         </p>
-        <button className="hero-btn">Search Books</button>
+        <Link to="/search">
+          {" "}
+          <button className="hero-btn">Search Books</button>
+        </Link>
       </div>
       <img src={heroImg} className="hero-img"></img>
     </div>
