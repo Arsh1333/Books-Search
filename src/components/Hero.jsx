@@ -1,5 +1,7 @@
 import heroImg from "../assets/hero.jpg";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 export default function Hero() {
   return (
@@ -14,9 +16,10 @@ export default function Hero() {
         </p>
         <Link to="/search">
           {" "}
-          <button className="hero-btn">Search Books</button>
+          <button className="hero-btn">Books Rankings</button>
         </Link>
       </div>
+
       <img src={heroImg} className="hero-img"></img>
     </div>
   );

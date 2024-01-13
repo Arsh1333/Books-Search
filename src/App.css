@@ -88,6 +88,24 @@ Link .logo {
 .contact-h {
   color: red;
 }
+.display {
+  margin: 29px;
+}
+.p-display-main {
+  margin: 20px;
+}
+.display-content {
+  background-color: aqua;
+}
+.p-desc {
+  margin: 20px;
+}
+.content-text {
+  margin-top: 30px;
+}
+.content-img-books {
+  margin-left: 70%;
+}
 @media (max-width: 768px) {
   body,
   html {
