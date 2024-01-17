@@ -18,6 +18,10 @@ export default function Hero() {
           {" "}
           <button className="hero-btn">Books Rankings</button>
         </Link>
+        <Link to="/searchNonFiction">
+          {" "}
+          <button className="hero-btn">Books Rankings</button>
+        </Link>
       </div>
 
       <img src={heroImg} className="hero-img"></img>

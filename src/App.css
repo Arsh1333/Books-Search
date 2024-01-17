@@ -91,20 +91,38 @@ Link .logo {
 .display {
   margin: 29px;
 }
-.p-display-main {
-  margin: 20px;
-}
 .display-content {
-  background-color: aqua;
+  background-color: rgb(99, 99, 252);
+  width: 60%;
+  color: white;
+  font-size: larger;
+  margin-left: 25%;
 }
-.p-desc {
-  margin: 20px;
+.h-rank {
+  margin: 30px;
+  margin-top: 50px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 .content-text {
-  margin-top: 30px;
+  margin: 50px;
+  padding: 30px;
+}
+.p-display-main {
+  margin: 10px;
 }
 .content-img-books {
-  margin-left: 70%;
+  margin-left: 10%;
+  padding: 10px;
+}
+.publisher {
+  margin: 10px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: grey;
+}
+.p-desc {
+  margin: 10px;
+  width: 55%;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 @media (max-width: 768px) {
   body,
@@ -122,5 +140,24 @@ Link .logo {
   }
   .btn-sign {
     display: none;
+  }
+  .display-content {
+    background-color: rgb(99, 99, 252);
+    color: white;
+    font-size: larger;
+    margin: 0px;
+    width: 100%;
+    border-radius: 25px;
+    height: 800px;
+  }
+  .content-img-books {
+    margin-left: 20%;
+    padding: 10px;
+    height: 280px;
+  }
+  .p-desc {
+    margin: 10px;
+    width: 95%;
+    font-family: "PT Sans Narrow", sans-serif;
   }
 }

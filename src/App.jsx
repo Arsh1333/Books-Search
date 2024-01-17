@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
+
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Search from "./components/Search";
