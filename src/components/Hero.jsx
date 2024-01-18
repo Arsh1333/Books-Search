@@ -12,7 +12,9 @@ export default function Hero() {
         <p className="hero-p">
           Welcome to a world of words, where stories come to life and adventures
           unfold on every page. Immerse yourself in the magic of literature,
-          where each book is a gateway to new realms of imagination.
+          where each book is a gateway to new realms of imagination. Get the
+          latest New York Times monthly book rankings by clicking the buttons
+          below.
         </p>
         <Link to="/search">
           {" "}

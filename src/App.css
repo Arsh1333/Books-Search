@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -95,10 +94,6 @@ Link .logo {
   color: rgb(99, 99, 252);
   font-family: "PT Sans Narrow", sans-serif;
 }
-
-.contact-h {
-  color: red;
-}
 .display {
   margin: 29px;
 }
@@ -145,6 +140,21 @@ Link .logo {
   background-color: rgb(253, 253, 253);
   color: rgb(244, 155, 155);
   font-family: "PT Sans Narrow", sans-serif;
+}
+.p-contact {
+  margin: 10px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.social {
+  margin: 20px;
+  margin-top: 60px;
+  display: flex;
+}
+.x {
+  margin-left: 80px;
+}
+.contact-card {
+  margin: 20px;
 }
 @media (max-width: 768px) {
   body,
