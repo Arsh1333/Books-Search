@@ -156,6 +156,20 @@ Link .logo {
 .contact-card {
   margin: 20px;
 }
+.p-contact {
+  width: 80%;
+}
+.about-card {
+  margin: 20px;
+}
+.aboutImg {
+  height: 500px;
+  width: 250px;
+  margin: 30px;
+}
+.p-content {
+  display: flex;
+}
 @media (max-width: 768px) {
   body,
   html {
