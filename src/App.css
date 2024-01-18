@@ -85,6 +85,17 @@ Link .logo {
   color: rgb(99, 99, 252);
   border: 2px solid rgb(99, 99, 252);
 }
+.hero-btn-nf {
+  margin: 15px;
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  border: rgb(99, 99, 252) 2px solid;
+  background-color: white;
+  color: rgb(99, 99, 252);
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
 .contact-h {
   color: red;
 }
@@ -93,10 +104,11 @@ Link .logo {
 }
 .display-content {
   background-color: rgb(99, 99, 252);
-  width: 60%;
+  width: 70%;
   color: white;
   font-size: larger;
-  margin-left: 25%;
+  margin-left: 11%;
+  border-radius: 25px;
 }
 .h-rank {
   margin: 30px;
@@ -117,11 +129,21 @@ Link .logo {
 .publisher {
   margin: 10px;
   font-family: "PT Sans Narrow", sans-serif;
-  color: grey;
+  color: rgb(232, 171, 171);
 }
 .p-desc {
   margin: 10px;
   width: 55%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.buy {
+  margin: 15px;
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(253, 253, 253);
+  color: rgb(244, 155, 155);
   font-family: "PT Sans Narrow", sans-serif;
 }
 @media (max-width: 768px) {
@@ -154,6 +176,7 @@ Link .logo {
     margin-left: 20%;
     padding: 10px;
     height: 280px;
+    overflow: hidden;
   }
   .p-desc {
     margin: 10px;

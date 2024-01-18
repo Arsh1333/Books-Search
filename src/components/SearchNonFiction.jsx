@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function Search() {
+export default function SearchNonFiction() {
   const [item, setItem] = useState([]);
   useEffect(() => {
     axios
       .get(
-        "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=yIyZRJXm51wM5GE6v8px40TLn3EgTWP5"
+        "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-nonfiction.json?api-key=yIyZRJXm51wM5GE6v8px40TLn3EgTWP5"
       )
       .then((response) => {
         console.log(response.data.results.books);
@@ -15,7 +15,7 @@ export default function Search() {
   }, []);
   return (
     <div className="search">
-      <h1 className="h-rank">NYT's Rankings-Fiction (Top-15)</h1>
+      <h1 className="h-rank">NYT's Rankings-Nonfiction (Top-15)</h1>
       <div className="display">
         {item.map((i, index) => {
           return (

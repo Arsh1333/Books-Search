@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-
+import SearchNonFiction from "./components/SearchNonFiction";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Search from "./components/Search";
@@ -35,6 +35,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/searchNonFiction" element={<SearchNonFiction />} />
       </Routes>
     </BrowserRouter>
   );

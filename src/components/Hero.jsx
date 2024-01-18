@@ -16,11 +16,11 @@ export default function Hero() {
         </p>
         <Link to="/search">
           {" "}
-          <button className="hero-btn">Books Rankings</button>
+          <button className="hero-btn">Rankings-Fiction</button>
         </Link>
         <Link to="/searchNonFiction">
           {" "}
-          <button className="hero-btn">Books Rankings</button>
+          <button className="hero-btn-nf">Nonfiction</button>
         </Link>
       </div>
 
