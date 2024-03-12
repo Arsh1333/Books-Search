@@ -21,7 +21,11 @@ export default function Search() {
           return (
             <div className="display-content" key={index}>
               <div className="content-text">
-                <h3 className="p-display-main">{i.title}</h3>
+                <h3 className="p-display-main">
+                  {" "}
+                  <h1 className="rank">{i.rank}</h1>
+                  {i.title}
+                </h3>
                 <h5 className="p-display-main">{i.author}</h5>
                 <p className="p-desc">{i.description}</p>
                 <p className="publisher">Publisher:{i.publisher}</p>

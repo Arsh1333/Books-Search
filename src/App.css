@@ -46,7 +46,7 @@ Link .logo {
   height: 30px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(99, 99, 252);
+  background-color: rgb(201, 201, 253);
   color: white;
 }
 .hero {
@@ -75,30 +75,30 @@ Link .logo {
   height: 40px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(99, 99, 252);
+  background-color: rgb(171, 171, 252);
   color: white;
   font-family: "PT Sans Narrow", sans-serif;
 }
 .hero-btn:hover {
   background-color: white;
-  color: rgb(99, 99, 252);
-  border: 2px solid rgb(99, 99, 252);
+  color: rgb(190, 190, 252);
+  border: 2px solid rgb(201, 201, 253);
 }
 .hero-btn-nf {
   margin: 15px;
   width: 90px;
   height: 40px;
   border-radius: 20px;
-  border: rgb(99, 99, 252) 2px solid;
+  border: rgb(201, 201, 253) 2px solid;
   background-color: white;
-  color: rgb(99, 99, 252);
+  color: rgb(201, 201, 253);
   font-family: "PT Sans Narrow", sans-serif;
 }
 .display {
   margin: 29px;
 }
 .display-content {
-  background-color: rgb(99, 99, 252);
+  background-color: rgb(180, 180, 255);
   width: 70%;
   color: white;
   font-size: larger;
@@ -170,6 +170,9 @@ Link .logo {
 .p-content {
   display: flex;
 }
+.rank {
+  font-size: 45px;
+}
 @media (max-width: 768px) {
   body,
   html {
@@ -188,7 +191,7 @@ Link .logo {
     display: none;
   }
   .display-content {
-    background-color: rgb(99, 99, 252);
+    background-color: rgb(201, 201, 253);
     color: white;
     font-size: larger;
     margin: 0px;
